@@ -1,0 +1,9 @@
+---
+applications:
+  - name: simplyspring-native
+    instances: 1
+    path: ./target/demo
+    buildpacks:
+      - binary_buildpack
+    stack: cflinuxfs3
+    command: ./demo
