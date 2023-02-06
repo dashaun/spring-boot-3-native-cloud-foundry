@@ -1,5 +1,8 @@
 ## Cloud Foundry increases its value with Spring Boot 3
 
+![Spring Boot 3 on TAS](docs/example.png)
+> 75% smaller container
+
 Some of your Spring Boot 3 application might be more cost-effective as `native` images.
 
 Spring Boot 3 with AOT processing can significantly reduce the memory-footprint of the container needed to run your application.
